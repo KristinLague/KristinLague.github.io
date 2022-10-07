@@ -1,3 +1,30 @@
+header{
+    background-color: #10403B;
+    height: 350px;
+}
+
+header-text{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 48px;
+    color: #BFBFBF
+}
+
+.grid-container {
+    display: grid;
+}
+
+.grid-item1{
+    background-color: #127369;
+}
+
+.grid-item2{
+    background-color: #4C5958;
+}
+
+.grid-item3{
+    background-color: #127369;
+}
+
 body{
     background-color: #BFBFBF;
 }
