@@ -24,7 +24,7 @@ body:before {
 	transform: scale(1);
 	width: 100vw;
 	z-index: 0;
-	background-image: linear-gradient(45deg, #B3BDF2 0%, #9993BF 100%);
+	background-image: linear-gradient(45deg, #A66660 0%, #9993BF 100%);
 	background-position: 0% 0%;
 	background-repeat: repeat;
 	background-size: auto;
@@ -240,11 +240,12 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text02 {
+	text-align: center;
 	color: #4A3E4D;
 	font-family: 'Inter', sans-serif;
 	letter-spacing: -0.25rem;
 	width: 100%;
-	font-size: 6.125em;
+	font-size: 5.375em;
 	line-height: 0.875;
 	font-weight: 800;
 }
