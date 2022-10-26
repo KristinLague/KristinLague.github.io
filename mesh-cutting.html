@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Kristin Lague - Mesh Cutting</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="description" content="MeshCutting" />
+		<meta property="og:site_name" content="Kristin Lague - Mesh Cutting" />
+		<meta property="og:title" content="Kristin Lague - Mesh Cutting" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="MeshCutting" />
+		<link href="https://fonts.googleapis.com/css?display=swap&family=Inter:800,800italic,400,400italic,900,900italic,700,700italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="assets/main.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="main">
+				<div class="inner">
+					<h1 id="text02">Mesh Cutting</h1>
+					<div id="container01" class="container columns">
+						<div class="wrapper">
+							<div class="inner" data-reorder="1,0">
+								<div>
+									<p id="text01"><span class="p">Unity Version 2021.2.7</span><span class="p">Checkout the GitRepo <a href="https://github.com/KristinLague/Mesh-Cutting">here</a></span></p>
+								</div>
+								<div>
+									<div id="image01" class="image" data-position="center">
+										<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA0ODAgMjQwIiB3aWR0aD0iNDgwIiBoZWlnaHQ9IjI0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0idHJhbnNwYXJlbnQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image01.gif" alt="mesh slicing gif" /></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h2 id="text06"><strong>How does it work?</strong></h2>
+					<p id="text05">The Mouse Input is used to draw a cut line onto the screen. I then use this lines normal to spawn an endless plane that goes right through the meshes that are being cut. The plane is used to separate the original mesh and its submeshes into a left and a right mesh. I evaluate which vertices of the original mesh belong to which new mesh by utilizing the Plane.GetSide() function and assign them accordingly. Lastly I am filling the cut sides of the new meshes by adding new vertices in code. Lastly I am adding a little bit of force to one of the new meshes to visualise the cut.</p>
+					<ul id="icons01" class="icons">
+						<li>
+							<a class="n01" href="https://github.com/KristinLague">
+								<svg><use xlink:href="assets/icons.svg#github"></use></svg>
+								<span class="label">GitHub</span>
+							</a>
+						</li><li>
+							<a class="n02" href="https://twitter.com/itsKristinSrsly">
+								<svg><use xlink:href="assets/icons.svg#twitter"></use></svg>
+								<span class="label">Twitter</span>
+							</a>
+						</li><li>
+							<a class="n03" href="https://www.linkedin.com/in/kristin-lague-8781a9155/">
+								<svg><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+								<span class="label">LinkedIn</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+	</body>
+</html>

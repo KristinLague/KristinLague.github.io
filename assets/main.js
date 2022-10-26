@@ -1364,7 +1364,11 @@
 	// "On Visible" animations.
 		onvisible.add('#text05', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text01', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
+		onvisible.add('#text08', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text04', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text03', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
+		onvisible.add('#text06', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
+		onvisible.add('#text09', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
+		onvisible.add('#text07', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 
 })();
