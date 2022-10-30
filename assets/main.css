@@ -268,6 +268,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text05 {
+	text-align: justify;
 	color: #696969;
 	font-family: 'Inter', sans-serif;
 	font-size: 1em;
@@ -909,18 +910,26 @@ hr:before {
 }
 
 #icons01 .n01 {
-	background-color: #A66660;
+	background-color: #5F4E7A;
 }
 
 #icons01 .n02 {
-	background-color: #A66660;
+	background-color: #5F4E7A;
 }
 
 #icons01 .n03 {
-	background-color: #A66660;
+	background-color: #5F4E7A;
 }
 
 #icons01 .n03 svg {
+	fill: #FFFFFF;
+}
+
+#icons01 .n04 {
+	background-color: #5F4E7A;
+}
+
+#icons01 .n04 svg {
 	fill: #FFFFFF;
 }
 
