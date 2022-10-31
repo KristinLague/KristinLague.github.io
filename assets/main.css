@@ -424,32 +424,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	margin-top: 1rem;
 }
 
-#text09 {
-	color: #696969;
-	font-family: 'Inter', sans-serif;
-	font-size: 1em;
-	line-height: 1.875;
-	font-weight: 400;
-}
-
-#text09 a {
-	color: #5C83EE;
-	text-decoration: none;
-}
-
-#text09 a:hover {
-	color: #10182F;
-}
-
-#text09 mark {
-	color: #D4AF37;
-	background-color: transparent;
-}
-
-#text09 span.p:nth-child(n + 2) {
-	margin-top: 1rem;
-}
-
 #text07 {
 	color: #696969;
 	font-family: 'Inter', sans-serif;
@@ -473,6 +447,32 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text07 span.p:nth-child(n + 2) {
+	margin-top: 1rem;
+}
+
+#text09 {
+	color: #696969;
+	font-family: 'Inter', sans-serif;
+	font-size: 1em;
+	line-height: 1.875;
+	font-weight: 400;
+}
+
+#text09 a {
+	color: #5C83EE;
+	text-decoration: none;
+}
+
+#text09 a:hover {
+	color: #10182F;
+}
+
+#text09 mark {
+	color: #D4AF37;
+	background-color: transparent;
+}
+
+#text09 span.p:nth-child(n + 2) {
 	margin-top: 1rem;
 }
 
@@ -783,24 +783,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	transition: none;
 }
 
-#image07 .frame {
-	width: 22rem;
-	height: 12.25rem;
-	box-shadow: 0.599rem 1.644rem 2rem 0rem #554D78;
-	transition: none;
-}
-
-#image07 img {
-	height: 100% !important;
-	object-fit: cover;
-	object-position: center;
-	width: 100% !important;
-}
-
-#image07 .frame img {
-	transition: none;
-}
-
 #image05 .frame {
 	width: 22rem;
 	height: 12.25rem;
@@ -1021,14 +1003,14 @@ hr:before {
 		line-height: 1.875;
 	}
 	
-	#text09 {
+	#text07 {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1em;
 		line-height: 1.875;
 	}
 	
-	#text07 {
+	#text09 {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1em;
@@ -1197,18 +1179,6 @@ hr:before {
 		width: 100% !important;
 	}
 	
-	#image07 .frame {
-		width: 22rem;
-		height: 15.3125rem !important;
-	}
-	
-	#image07 img {
-		height: 100% !important;
-		object-fit: cover;
-		object-position: center;
-		width: 100% !important;
-	}
-	
 	#image05 .frame {
 		width: 22rem;
 		height: 15.3125rem !important;
@@ -1258,10 +1228,6 @@ hr:before {
 		height: 12.25rem !important;
 	}
 	
-	#image07 .frame {
-		height: 12.25rem !important;
-	}
-	
 	#image05 .frame {
 		height: 12.25rem !important;
 	}
@@ -1302,11 +1268,11 @@ hr:before {
 		font-size: 1em;
 	}
 	
-	#text09 {
+	#text07 {
 		font-size: 1em;
 	}
 	
-	#text07 {
+	#text09 {
 		font-size: 1em;
 	}
 	
@@ -1333,10 +1299,6 @@ hr:before {
 	}
 	
 	#image04 .frame {
-		height: 10.71875rem !important;
-	}
-	
-	#image07 .frame {
 		height: 10.71875rem !important;
 	}
 	
