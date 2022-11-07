@@ -294,7 +294,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	margin-top: 1rem;
 }
 
-#text01 {
+#text10 {
 	color: #696969;
 	font-family: 'Inter', sans-serif;
 	font-size: 1em;
@@ -302,21 +302,21 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	font-weight: 400;
 }
 
-#text01 a {
+#text10 a {
 	color: #5C83EE;
 	text-decoration: none;
 }
 
-#text01 a:hover {
+#text10 a:hover {
 	color: #10182F;
 }
 
-#text01 mark {
+#text10 mark {
 	color: #D4AF37;
 	background-color: transparent;
 }
 
-#text01 span.p:nth-child(n + 2) {
+#text10 span.p:nth-child(n + 2) {
 	margin-top: 1rem;
 }
 
@@ -369,6 +369,32 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text04 span.p:nth-child(n + 2) {
+	margin-top: 1rem;
+}
+
+#text01 {
+	color: #696969;
+	font-family: 'Inter', sans-serif;
+	font-size: 1em;
+	line-height: 1.875;
+	font-weight: 400;
+}
+
+#text01 a {
+	color: #5C83EE;
+	text-decoration: none;
+}
+
+#text01 a:hover {
+	color: #10182F;
+}
+
+#text01 mark {
+	color: #D4AF37;
+	background-color: transparent;
+}
+
+#text01 span.p:nth-child(n + 2) {
 	margin-top: 1rem;
 }
 
@@ -693,21 +719,21 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	border-bottom-right-radius: inherit;
 }
 
-#image01 .frame {
+#image07 .frame {
 	width: 22rem;
 	height: 12.25rem;
 	box-shadow: 0.599rem 1.644rem 2rem 0rem #554D78;
 	transition: none;
 }
 
-#image01 img {
+#image07 img {
 	height: 100% !important;
 	object-fit: cover;
 	object-position: center;
 	width: 100% !important;
 }
 
-#image01 .frame img {
+#image07 .frame img {
 	transition: none;
 }
 
@@ -744,6 +770,24 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #image03 .frame img {
+	transition: none;
+}
+
+#image01 .frame {
+	width: 22rem;
+	height: 12.25rem;
+	box-shadow: 0.599rem 1.644rem 2rem 0rem #554D78;
+	transition: none;
+}
+
+#image01 img {
+	height: 100% !important;
+	object-fit: cover;
+	object-position: center;
+	width: 100% !important;
+}
+
+#image01 .frame img {
 	transition: none;
 }
 
@@ -968,7 +1012,7 @@ hr:before {
 		line-height: 1.875;
 	}
 	
-	#text01 {
+	#text10 {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1em;
@@ -983,6 +1027,13 @@ hr:before {
 	}
 	
 	#text04 {
+		letter-spacing: 0rem;
+		width: 100%;
+		font-size: 1em;
+		line-height: 1.875;
+	}
+	
+	#text01 {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1em;
@@ -1119,12 +1170,12 @@ hr:before {
 		width: 100% !important;
 	}
 	
-	#image01 .frame {
+	#image07 .frame {
 		width: 22rem;
 		height: 15.3125rem !important;
 	}
 	
-	#image01 img {
+	#image07 img {
 		height: 100% !important;
 		object-fit: cover;
 		object-position: center;
@@ -1149,6 +1200,18 @@ hr:before {
 	}
 	
 	#image03 img {
+		height: 100% !important;
+		object-fit: cover;
+		object-position: center;
+		width: 100% !important;
+	}
+	
+	#image01 .frame {
+		width: 22rem;
+		height: 15.3125rem !important;
+	}
+	
+	#image01 img {
 		height: 100% !important;
 		object-fit: cover;
 		object-position: center;
@@ -1208,7 +1271,7 @@ hr:before {
 	
 	
 	
-	#image01 .frame {
+	#image07 .frame {
 		height: 12.25rem !important;
 	}
 	
@@ -1217,6 +1280,10 @@ hr:before {
 	}
 	
 	#image03 .frame {
+		height: 12.25rem !important;
+	}
+	
+	#image01 .frame {
 		height: 12.25rem !important;
 	}
 	
@@ -1248,7 +1315,7 @@ hr:before {
 		font-size: 1em;
 	}
 	
-	#text01 {
+	#text10 {
 		font-size: 1em;
 	}
 	
@@ -1257,6 +1324,10 @@ hr:before {
 	}
 	
 	#text04 {
+		font-size: 1em;
+	}
+	
+	#text01 {
 		font-size: 1em;
 	}
 	
@@ -1282,7 +1353,7 @@ hr:before {
 		--padding-vertical: 1.5rem;
 	}
 	
-	#image01 .frame {
+	#image07 .frame {
 		height: 10.71875rem !important;
 	}
 	
@@ -1291,6 +1362,10 @@ hr:before {
 	}
 	
 	#image03 .frame {
+		height: 10.71875rem !important;
+	}
+	
+	#image01 .frame {
 		height: 10.71875rem !important;
 	}
 	

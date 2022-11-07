@@ -317,10 +317,13 @@
 					for (i=0; i < a.length; i++) {
 	
 						// Load.
-							a[i].src = a[i].dataset.src;
+							a[i].contentWindow.location.replace(a[i].dataset.src);
+	
+						// Save initial src.
+							a[i].dataset.initialSrc = a[i].dataset.src;
 	
 						// Mark as loaded.
-							a[i].dataset.src = "";
+							a[i].dataset.src = '';
 	
 					}
 	
@@ -382,10 +385,17 @@
 								continue;
 	
 						// Mark as unloaded.
-							a[i].dataset.src = a[i].src;
+	
+							// IFRAME was previously loaded by loadElements()? Use initialSrc.
+								if ('initialSrc' in a[i].dataset)
+									a[i].dataset.src = a[i].dataset.initialSrc;
+	
+							// Otherwise, just use src.
+								else
+									a[i].dataset.src = a[i].src;
 	
 						// Unload.
-							a[i].src = '';
+							a[i].contentWindow.location.replace('about:blank');
 	
 					}
 	
@@ -1363,9 +1373,10 @@
 	
 	// "On Visible" animations.
 		onvisible.add('#text05', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
-		onvisible.add('#text01', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
+		onvisible.add('#text10', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text08', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text04', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
+		onvisible.add('#text01', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text03', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text06', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
 		onvisible.add('#text07', { style: 'fade-down', speed: 625, intensity: 0, delay: 0, staggerOrder: '', replay: false });
